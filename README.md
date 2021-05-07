@@ -9,3 +9,16 @@ In this repositary, we provide the following data files:
 3. `samples.csv`: The CSV format data file which contains all of the text in the `samples` folder. 
 4. `large.csv`: The CSV format data file which contains all of the text in the `large` folder.
 
+The columns in both `samples.csv` and `large.csv` are defined as follows:
+
+| Column       | Description |
+| ------------ | ----------- |
+| VAERS_ID     | Unique ID       |
+| AGE_YRS      | Age        |
+| SEX          | Sex        |
+| VAX_DATE     | Vaccination Date        |
+| **SYMPTOM_TEXT** | Raw text which describes the symptom        |
+| VAX_MANU     | Vaccine name        |
+| **SYMPTOM**      | Identified symptom  |
+
+The `SYMPTOM_TEXT` is the text content for each raw text file, and the `SYMPTOM` is used in the file name.
