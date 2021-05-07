@@ -21,3 +21,4 @@ The columns in both `sample.csv` and `large.csv` are defined as follows:
 | **SYMPTOM**      | Identified symptom  |
 
 The `SYMPTOM_TEXT` is the text content for each raw text file, and the `SYMPTOM` is used in the file name.
+You could download all of these file here: https://github.com/OHNLP/covid19vaxae/archive/refs/heads/main.zip
