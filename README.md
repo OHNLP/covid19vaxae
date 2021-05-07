@@ -6,7 +6,7 @@ In this repositary, we provide the following data files:
 
 1. `sample/`: 500 AE raw text files for annoation and developing system. 
 3. `sample.csv`: The CSV format data file which contains all of the text in the `sample` folder. 
-4. `large.csv`: The CSV format data file which contains 6,060 records.
+4. `large.csv`: The CSV format data file which contains much more records.
 
 The columns in both `sample.csv` and `large.csv` are defined as follows:
 
@@ -21,3 +21,4 @@ The columns in both `sample.csv` and `large.csv` are defined as follows:
 | **SYMPTOM**      | Identified symptom  |
 
 The `SYMPTOM_TEXT` is the text content for each raw text file, and the `SYMPTOM` is used in the file name.
+You could download all of these files here: https://github.com/OHNLP/covid19vaxae/archive/refs/heads/main.zip
