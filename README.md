@@ -27,7 +27,9 @@ You could download all of these files here: https://github.com/OHNLP/covid19vaxa
 
 ## Code
 
-There are some Jupyter Notebooks for data exploration.
+There are some Jupyter notebooks for data exploration.
 
 - data_preprocessing.ipynb: create dataset from the raw data.
 - nlp_tasks: Simple NLP classification workflow.
+
+If you don't have an local environment to run these notebook, you could use the free version of Google Colab (https://colab.research.google.com/) or Deepnote (https://deepnote.com/). The basic machine is free and good enough for running these Jupyter notebooks.
