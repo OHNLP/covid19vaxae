@@ -1,6 +1,8 @@
 # covid19vaxae
 
-COVID19 Vaccination Adverse Event (AE) Dataset. 
+COVID19 Vaccination Adverse Event (AE)
+
+## Dataset
 The raw data files are from VAERS (https://vaers.hhs.gov/data.html).
 In this repositary, we provide the following data files:
 
@@ -22,3 +24,10 @@ The columns in both `sample.csv` and `large.csv` are defined as follows:
 
 The `SYMPTOM_TEXT` is the text content for each raw text file, and the `SYMPTOM` is used in the file name.
 You could download all of these files here: https://github.com/OHNLP/covid19vaxae/archive/refs/heads/main.zip
+
+## Code
+
+There are some Jupyter Notebooks for data exploration.
+
+- data_preprocessing.ipynb: create dataset from the raw data.
+- nlp_tasks: Simple NLP classification workflow.
