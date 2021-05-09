@@ -6,6 +6,7 @@ COVID19 Vaccination Adverse Event (AE)
 The raw data files are from VAERS (https://vaers.hhs.gov/data.html).
 In this repositary, we provide the following data files:
 
+0. `raw/`: all raw data files of 2020 and 2021 VAERS.
 1. `sample/`: 500 AE raw text files for annoation and developing system. 
 2. `sample.csv`: The CSV format data file which contains all of the text in the `sample` folder. 
 3. `large.csv`: The CSV format data file which contains much more records.
@@ -26,6 +27,23 @@ The columns in both `sample.csv` and `large.csv` are defined as follows:
 
 The `SYMPTOM_TEXT` is the text content for each raw text file, and the `SYMPTOM` is used in the file name.
 You could download all of these files here: https://github.com/OHNLP/covid19vaxae/archive/refs/heads/main.zip
+
+The columns in both `m_sample.csv` and `m_large.csv` are defined as follows:
+
+| Column       | Description |
+| ------------ | ----------- |
+| VAERS_ID     | Unique ID       |
+| AGE_YRS      | Age        |
+| SEX          | Sex        |
+| VAX_DATE     | Vaccination Date        |
+| **SYMPTOM_TEXT** | Raw text which describes the symptom        |
+| VAX_MANU     | Vaccine name        |
+| **SYMPTOMS**      | A list of identified symptoms  |
+| NUM_SYMS     | The number of identified symptoms |
+
+The `SYMPTOMS` could be used for multi-label classification or other tasks.
+
+
 
 ## Code
 
