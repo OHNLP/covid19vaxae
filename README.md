@@ -35,5 +35,6 @@ There are some Jupyter notebooks for data exploration.
 - data_preprocessing_multilabels.ipynb: create dataset for multi-label records
 - nlp_tasks: Simple NLP classification workflow.
 - nlp_symptom_detection.ipynb: Binary symptom detection workflow.
+- rule_tasks.ipynb: Symptom detection workflow based on RegExp
 
 If you don't have an local environment to run these notebook, you could use the free version of Google Colab (https://colab.research.google.com/) or Deepnote (https://deepnote.com/). The basic machine is free and good enough for running these Jupyter notebooks.
